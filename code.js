@@ -11,8 +11,8 @@ var code = fs.readFileSync(__dirname+'/code/'+filename + '.js')+'';
 console.log("Transpiling", filename);
 var result = babel.transform(code, opts);
 
-console.log('Writing transpiled code to /code/'+filename+'.transpilation.js');
-fs.writeFile(__dirname+'/code/'+filename+'.transpilation.js', result.code);
+console.log('Writing transpiled code to /code/'+filename+'.es5.js');
+fs.writeFile(__dirname+'/code/'+filename+'.es5.js', result.code);
 
 console.log("Executing transpiled code:");
 eval(result.code);
