@@ -1,6 +1,9 @@
 node_modules
 npm-debug.log
 .DS_Store
-*.es5.js
+*.es6-es5.js
+*.ts-es6.js
+*.ts-es5.js
 bundle.js
+bundle.js.map
 *.map

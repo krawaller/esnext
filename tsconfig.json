@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "jsx": "react",
+    "lib": [
+      "es5",
+      "dom"
+    ]
+  },
+  "exclude": ["node_modules"]
+}

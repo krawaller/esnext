@@ -10,7 +10,7 @@ This setup allows you to **run and transpile a single file**:
 * write the ES6 code you want to try in that file
 * execute `node code mytestfile` in the terminal.
 * see the output (if any) from your file in the terminal
-* check the transpiled file in `code/mytestfile.es5.js`
+* check the transpiled file in `code/mytestfile.es6-es5.js`
 
 ### App
 
